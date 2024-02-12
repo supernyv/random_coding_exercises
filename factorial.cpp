@@ -8,6 +8,7 @@ int factorial(int n)
 }
 int main(){
     int example = 5;
-    std::cout << "Factorial of " << example << " = " << factorial(example) << std::endl;
+    std::cout   << "Factorial of " << example << " = "
+                << factorial(example) << std::endl;
     return 0;
 }
